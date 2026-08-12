@@ -22,4 +22,4 @@ jobs:
       - name: Check application
         run: node --check app.js
 
-      - 
+      
