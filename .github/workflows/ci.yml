@@ -21,6 +21,13 @@ jobs:
 
       - name: Check application
         run: node --check app.js
+      
+        
+
+      - name: Run automated smoke test
+        run: node Test.js
 
       - name: Build Docker image
         run: docker build -t devops-saas-app .
+      
+        
