@@ -25,7 +25,7 @@ jobs:
         
 
       - name: Run automated smoke test
-        run: node Test.js
+        run: node test.js
 
       - name: Build Docker image
         run: docker build -t devops-saas-app .
